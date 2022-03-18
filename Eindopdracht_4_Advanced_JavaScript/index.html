@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Film Finder</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="js/movies.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/header-img.jpg" class="header-img" alt="Header Image" />
+      <h1 class="header-title">Film Finder</h1>
+    </header>
+
+    <nav class="navbar">
+      <input
+        class="category"
+        type="radio"
+        id="all-movies"
+        name="filter-list"
+        value="allmovies"
+      />
+      <label class="category" for="all-movies"> All Movies</label>
+
+      <input
+        class="category"
+        type="radio"
+        id="new-movies"
+        name="filter-list"
+        value="newmovies"
+      />
+      <label class="category" for="new-movies"> New Movies</label>
+
+      <input
+        class="category"
+        type="radio"
+        id="avenger-movies"
+        name="filter-list"
+        value="avengers"
+      />
+      <label class="category" for="avenger-movies"> Avenger Movies</label>
+
+      <input
+        class="category"
+        type="radio"
+        id="xmen-movies"
+        name="filter-list"
+        value="xmen"
+      />
+      <label class="category" for="xmen-movies"> X-men Movies </label>
+
+      <input
+        class="category"
+        type="radio"
+        id="princess-movies"
+        name="filter-list"
+        value="princess"
+      />
+      <label class="category" for="princess-Movies"> Princess Movies </label>
+
+      <input
+        class="category"
+        type="radio"
+        id="batman-movies"
+        name="filter-list"
+        value="batman"
+      />
+      <label class="category" for="batman-movies"> Batman Movies </label>
+    </nav>
+
+    <main>
+      <ul id="movie-list"></ul>
+    </main>
+
+    <footer>
+      <p class="footer-text">© Mel Schipper 2022</p>
+    </footer>
+  </body>
+</html>
